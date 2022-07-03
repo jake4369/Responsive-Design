@@ -5,6 +5,10 @@ body {
   color: #2e354f;
 }
 
+img {
+  width: 100%;
+}
+
 h1,
 h2,
 strong {
