@@ -25,6 +25,10 @@ p {
   margin-top: 0;
 }
 
+.col-bg p {
+  margin: 0;
+}
+
 /* Layout */
 .container {
   width: 95%;
@@ -58,8 +62,4 @@ img {
   color: #fff;
   background-color: #312614;
   padding: 1em;
-}
-
-.col-bg p {
-  margin: 0;
 }
