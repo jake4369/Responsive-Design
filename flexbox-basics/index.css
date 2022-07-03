@@ -21,6 +21,10 @@ h2 {
   font-size: 1.5rem;
 }
 
+p {
+  margin-top: 0;
+}
+
 /* Layout */
 .container {
   width: 95%;
@@ -35,4 +39,10 @@ img {
 .columns {
   display: flex;
   justify-content: space-between;
+}
+
+.col-bg {
+  color: #fff;
+  background-color: #312614;
+  padding: 1em;
 }
