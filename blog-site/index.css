@@ -79,20 +79,14 @@ strong {
 
 .container-flex {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 header {
   background: #f8f8f8;
   padding: 2em 0;
-}
-
-main {
-  width: 75%;
-}
-
-aside {
-  width: 20%;
+  text-align: center;
 }
 
 /* =============
@@ -133,18 +127,21 @@ nav a:focus {
 /* =============
    Media Queries 
    ============= */
-@media (max-width: 690px) {
-  /* Layout */
+@media (min-width: 675px) {
   .container-flex {
-    flex-direction: column;
+    flex-direction: row;
   }
 
-  header {
-    text-align: center;
+  main {
+    width: 75%;
   }
 
-  /* Navigation */
+  aside {
+    width: 20%;
+  }
+}
 
+@media (max-width: 675px) {
   nav ul {
     flex-direction: column;
   }
