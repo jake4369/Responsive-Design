@@ -10,9 +10,11 @@ img {
   max-width: 100%;
   display: block;
 }
-/* =============
-   Typography 
-   ============= */
+
+/* =================
+Typography
+================= */
+
 h1,
 h2,
 h3 {
@@ -39,11 +41,11 @@ strong {
   font-weight: 700;
 }
 
-/* the logo subtitle */
+/* h1 subtitle */
 .subtitle {
-  font-size: 0.75rem;
   font-weight: 700;
   color: #1792d2;
+  font-size: 0.75rem;
   margin: 0;
 }
 
@@ -68,9 +70,14 @@ strong {
   text-decoration: underline;
 }
 
-/* =============
-   Layout 
-   ============= */
+.article-info {
+  margin: 2em 0;
+}
+
+/* =================
+Layout
+================= */
+
 .container {
   width: 90%;
   max-width: 900px;
@@ -89,12 +96,10 @@ header {
   text-align: center;
 }
 
-/* =============
-   Navigation 
-   ============= */
+/* navigation */
 
 nav ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -105,9 +110,9 @@ nav li {
 }
 
 nav a {
-  font-weight: 700;
-  color: #707070;
   text-decoration: none;
+  color: #707070;
+  font-weight: 700;
   padding: 0.25em 0;
 }
 
@@ -117,7 +122,7 @@ nav a:focus {
 }
 
 .current-page {
-  border-bottom: 2px solid #707070;
+  border-bottom: 1px solid #707070;
 }
 
 .current-page:hover {
@@ -125,9 +130,19 @@ nav a:focus {
 }
 
 /* =============
+   Articles 
+   ============= */
+.article-featured {
+  border-bottom: 1px solid #707070;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+}
+
+/* =============
    Media Queries 
    ============= */
 @media (min-width: 675px) {
+  /* Layout */
   .container-flex {
     flex-direction: row;
   }
