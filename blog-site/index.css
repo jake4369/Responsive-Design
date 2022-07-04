@@ -70,13 +70,14 @@ strong {
   color: #143774;
   text-decoration: underline;
 }
+
 .article-info {
   margin: 2em 0;
 }
 
 .widget-title,
-.widget-post-title {
-  font-size: 1em;
+.widget-recent-post-title {
+  font-size: 1rem;
 }
 
 .widget-title {
@@ -104,7 +105,7 @@ header {
   background: #f8f8f8;
   padding: 2em 0;
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 footer {
@@ -115,6 +116,10 @@ footer {
 }
 
 @media (min-width: 675px) {
+  header {
+    text-align: left;
+  }
+
   .container-flex {
     flex-direction: row;
   }
@@ -142,7 +147,8 @@ nav ul {
 nav li {
   margin-left: 2em;
 }
-.article-info nav a {
+
+nav a {
   text-decoration: none;
   color: #707070;
   font-weight: 700;
@@ -205,7 +211,7 @@ nav a:focus {
   }
 
   .article-recent-secondary {
-    width: 25%;
+    width: 30%;
   }
 
   .article-featured {
@@ -217,6 +223,7 @@ nav a:focus {
     order: -2;
     min-height: 250px;
     object-fit: cover;
+    /* object-position: left; */
   }
 
   .article-info {
@@ -225,6 +232,7 @@ nav a:focus {
 }
 
 /* widgets */
+
 .sidebar-widget {
   border: 20px solid #efefef;
   margin-bottom: 2em;
@@ -245,5 +253,4 @@ nav a:focus {
 
 .widget-image {
   order: -1;
-  margin-bottom: 0.5em;
 }
