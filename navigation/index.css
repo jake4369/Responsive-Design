@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@700&display=swap");
+
+header {
+  text-align: center;
+  background: #f8f8f8;
+  padding: 2em 0;
+}
+
+nav ul {
+  border: 1px solid magenta;
+
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  border: 2px dotted orange;
+
+  margin: 0 1em;
+}
+
+nav a {
+  border: 3px solid green;
+}
+
+nav a:hover {
+}
