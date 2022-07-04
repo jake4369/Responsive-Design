@@ -1,4 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@700&display=swap");
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+/* =============
+   Typography 
+   ============= */
+
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  color: #143774;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #1792d2;
+  margin: 0;
+}
+
+/* =============
+   Layout 
+   ============= */
 
 header {
   text-align: center;
@@ -6,9 +32,11 @@ header {
   padding: 2em 0;
 }
 
-nav ul {
-  border: 1px solid magenta;
+/* =============
+   Navigation 
+   ============= */
 
+nav ul {
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -16,14 +44,25 @@ nav ul {
 }
 
 nav li {
-  border: 2px dotted orange;
-
   margin: 0 1em;
 }
 
 nav a {
-  border: 3px solid green;
+  font-weight: 700;
+  color: #707070;
+  text-decoration: none;
+  padding: 0.25em 0;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus {
+  color: #1792d2;
+}
+
+.current-page {
+  border-bottom: 2px solid #707070;
+}
+
+.current-page:hover {
+  color: #707070;
 }
