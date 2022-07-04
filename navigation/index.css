@@ -25,9 +25,18 @@ h1 {
 /* =============
    Layout 
    ============= */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+}
 
 header {
-  text-align: center;
   background: #f8f8f8;
   padding: 2em 0;
 }
@@ -44,7 +53,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 1em;
+  margin-left: 2em;
 }
 
 nav a {
@@ -65,4 +74,28 @@ nav a:focus {
 
 .current-page:hover {
   color: #707070;
+}
+
+/* =============
+   Media Queries 
+   ============= */
+@media (max-width: 690px) {
+  /* Layout */
+  .container-nav {
+    flex-direction: column;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  /* Navigation */
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 0.5em 0;
+  }
 }
