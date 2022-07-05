@@ -137,4 +137,37 @@ section {
   .articles {
     width: 50%;
   }
+
+  .articles.inverse {
+    color: #252525;
+    background: #99d930;
+  }
+
+  .articles.inverse .accent-text,
+  .articles.inverse .name,
+  .articles.inverse time,
+  .articles.inverse a {
+    color: currentColor;
+  }
+
+  .articles.inverse h2 {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+
+  .articles.inverse a:hover,
+  .articles.inverse a:focus {
+    color: #fff;
+  }
+
+  .articles.inverse .btn {
+    color: #fff;
+    background: #252525;
+  }
+
+  .articles.inverse .btn:hover,
+  .articles.inverse .btn:focus {
+    color: #252525;
+    background: #fff;
+  }
 }
