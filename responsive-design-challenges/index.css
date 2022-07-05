@@ -99,6 +99,11 @@ header {
   padding: 0;
 }
 
+.portfolio {
+  width: 100%;
+  padding: 2.381em;
+}
+
 .inverse {
   color: #fff;
   background: #252525;
@@ -138,7 +143,8 @@ header {
   .flex-container {
     display: flex;
     width: 100%;
-    align-items: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
   }
 
   .about-me,
