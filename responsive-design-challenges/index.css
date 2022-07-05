@@ -3,12 +3,6 @@ html {
   font-size: 0.9rem;
 }
 
-@media (min-width: 600px) {
-  html {
-    font-size: 1.3125rem;
-  }
-}
-
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 300;
@@ -123,4 +117,24 @@ section {
 .btn:focus {
   color: #fff;
   background: #252525;
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  html {
+    font-size: 1.3125rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .flex-container {
+    display: flex;
+    width: 100%;
+  }
+
+  .about-me,
+  .articles {
+    width: 50%;
+  }
 }
