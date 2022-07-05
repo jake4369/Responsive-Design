@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 21px;
+  font-size: 1.3125rem;
   font-weight: 300;
   text-align: center;
 }
@@ -28,11 +28,11 @@ time {
 }
 
 h1 .accent-text {
-  font-size: 80px;
+  font-size: 5rem;
 }
 
 h2 .accent-text {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 h1,
@@ -42,20 +42,20 @@ h3 {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
   margin-top: 0;
 }
 
 h2 {
-  font-size: 42px;
-  margin: 0 0 20px 0;
-  padding: 20px 0;
+  font-size: 2.625rem;
+  margin: 0 0 0.476em 0;
+  padding: 0.476em 0;
   border-top: 1px solid #c4c4c4;
   border-bottom: 1px solid #c4c4c4;
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 900;
   margin-bottom: 0;
 }
@@ -65,8 +65,8 @@ p {
 }
 
 .small-text {
-  font-size: 16px;
-  margin-top: 6px;
+  font-size: 1rem;
+  margin-top: 0.3125em;
 }
 
 a {
@@ -82,7 +82,7 @@ a:focus {
 /* LAYOUT */
 header,
 section {
-  padding: 100px 0;
+  padding: 4.762em 0;
 }
 
 .inverse {
@@ -100,8 +100,8 @@ section {
   display: inline-block;
   color: #252525;
   background: #99d930;
-  margin-top: 25px;
-  padding: 10px 25px;
+  margin-top: 1.19em;
+  padding: 0.476em 1.19em;
   text-decoration: none;
   cursor: pointer;
 }
