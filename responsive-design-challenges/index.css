@@ -99,11 +99,6 @@ header {
   padding: 0;
 }
 
-.portfolio {
-  width: 100%;
-  padding: 2.381em;
-}
-
 .inverse {
   color: #fff;
   background: #252525;
@@ -183,5 +178,34 @@ header {
   .articles.inverse .btn:focus {
     color: #252525;
     background: #fff;
+  }
+
+  .portfolio {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    color: #fff;
+    background: #252525;
+    padding: 2.381em;
+  }
+
+  .portfolio .container {
+    max-width: 1200px;
+  }
+
+  .work {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .portfolio-item {
+    width: 28%;
+  }
+
+  .portfolio-item img {
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
   }
 }
