@@ -92,6 +92,13 @@ section {
   padding: 4.762em 0;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0;
+}
+
 .inverse {
   color: #fff;
   background: #252525;
@@ -131,6 +138,7 @@ section {
   .flex-container {
     display: flex;
     width: 100%;
+    align-items: center;
   }
 
   .about-me,
