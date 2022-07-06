@@ -76,3 +76,22 @@ strong {
 .main-content {
   padding: 2em 1em;
 }
+
+/* =================
+   media queries
+   ================= */
+
+@media (min-width: 500px) {
+  body {
+    font-size: 1.125rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2,
+  h1 + p {
+    font-size: 1.75rem;
+  }
+}
