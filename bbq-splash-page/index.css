@@ -96,6 +96,56 @@ strong {
 }
 
 /* =================
+   form
+   ================= */
+.email-collector {
+  width: 80%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input,
+.btn {
+  width: 100%;
+  border-radius: 5px;
+}
+
+input {
+  font-family: inherit;
+  text-align: inherit;
+  margin-bottom: 0.75em;
+  padding: 0.25em;
+  border: 1px solid #404040;
+  transform: scale(1);
+}
+
+input:focus {
+  transform: scale(1.1);
+}
+
+.btn {
+  display: inline-block;
+  font-size: 0.625rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background-image: linear-gradient(90deg, #ffa51d, #ff713b);
+  transform: scale(1);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  transform: scale(1.1);
+}
+
+/* =================
    media queries
    ================= */
 
