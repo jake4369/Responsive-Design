@@ -84,10 +84,15 @@ strong {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
   max-width: 400px;
   margin: 0 auto;
+}
+
+.container-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 50vh;
 }
 
 /* =================
@@ -119,5 +124,9 @@ strong {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .container-intro {
+    height: 100%;
   }
 }
