@@ -68,7 +68,6 @@ strong {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   background-color: #404040;
   background-image: url("images/dark-ribs.jpg");
   background-size: cover;
@@ -82,6 +81,13 @@ strong {
 
 .main-content {
   padding: 2em 1em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 /* =================
