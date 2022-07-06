@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;900&display=swap");
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Source Sans Pro";
@@ -66,6 +69,8 @@ strong {
   flex-direction: column;
   background-color: #404040;
   background-image: url("images/dark-ribs.jpg");
+  background-size: cover;
+  background-position: center;
   padding: 0 0.5em 2em;
 }
 
@@ -83,6 +88,7 @@ strong {
 
 @media (min-width: 500px) {
   body {
+    display: flex;
     font-size: 1.125rem;
   }
 
@@ -94,4 +100,16 @@ strong {
   h1 + p {
     font-size: 1.75rem;
   }
+
+  .intro,
+  .main-content {
+    width: 50%;
+    min-height: 100vh;
+  }
+
+  /* .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } */
 }
